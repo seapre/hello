@@ -1,7 +1,9 @@
 or create a new repository on the command line
 
 echo "# hello" >> README.md
+
 git init
+
 git add README.md
 
 git commit -m "first commit"
@@ -13,4 +15,5 @@ git push -u origin master
 or push an existing repository from the command line
 
 git remote add origin https://github.com/seapre/hello.git
+
 git push -u origin master
